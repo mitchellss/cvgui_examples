@@ -1,4 +1,4 @@
-# `cvgui` Activities
+# `cvgui` Examples
 
 The purpose of this repository is to showcase the Python library 
 `cvgui`
