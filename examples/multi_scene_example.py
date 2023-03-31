@@ -11,9 +11,8 @@ WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 720
 WINDOW_FPS = 60
 
-# This name == main line is required for windows multiprocessing
-if __name__ == "__main__":
 
+def main() -> None:
     # Specify input as a webcam and computer vision model as blazepose
     frame_input: cvgui.FrameInput = cvgui.Webcam(device_num=0, fps=30)
     cv_model: cvgui.CVModel = cvgui.BlazePose()
@@ -81,3 +80,8 @@ if __name__ == "__main__":
 
     # Start activity
     activity.run()
+
+
+# This name == main line is required for windows multiprocessing
+if __name__ == "__main__":
+    main()

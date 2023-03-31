@@ -1,8 +1,8 @@
 # `cvgui` Examples
 
 The purpose of this repository is to showcase the Python library 
-`cvgui`
-through various examples. Explainations of each example can be found below.
+`cvgui` through various examples. Explainations of each example can be found below.
+Examples are located in the `examples` folder.
 
 The package source code is located on github [here](https://github.com/mitchellss/cvgui). 
 
@@ -32,7 +32,7 @@ Linux
 
 5. Run the example activity of your choosing (note: all examples require a webcam or camera plugged into the computer):
 
-> `python simple_example.py`
+> `python examples/simple_example.py`
 
 ## Example Activities:
 
