@@ -2,6 +2,7 @@
 Example program that shows how to create an activity
 with multiple scenes.
 """
+from pathlib import Path
 from random import randrange
 import cvgui
 
@@ -25,6 +26,9 @@ def main():
 
     # Create activity
     activity = cvgui.Activity(pose_input=pose_input, frontend=ui)
+
+    csv_logger = cvgui.CSVPoseLogger(Path("test.csv"))
+    activity.add_logger(csv_logger)
 
     # Create two scenes
     scene_1 = cvgui.Scene()
